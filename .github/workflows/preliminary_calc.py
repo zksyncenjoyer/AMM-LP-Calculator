@@ -15,4 +15,4 @@ if income > hurdle:
 else:
     gap = (hurdle - income) / 100
     print("LPing is definitely not profitable\n")
-    print('Shitcoin reward apy to breakeven is: {:.1%}\n'.format(gap))
+    print('Shitcoin reward apy to breakeven is: {:.1%}'.format(gap))
